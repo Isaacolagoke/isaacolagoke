@@ -87,71 +87,46 @@ nav li a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-/* .active{
-    color: #111;
-    text-decoration: underline;
-} */
 nav li:nth-child(1):hover{
     background: #ddd;
     opacity: 0.9;
-    border-left: 5px solid#34ace0; 
+    border-left: 5px solid#3867d6; 
 }
 nav li:nth-child(2):hover{
     background: #ddd;
     opacity: 0.9;
-    border-left: 5px solid#33d9b2; 
+    border-left: 5px solid#8854d0; 
 }
 nav li:nth-child(3):hover{
     background: #ddd;
     opacity: 0.9;
-    border-left: 5px solid #2c2c54; 
+    border-left: 5px solid #2d98da; 
 }
 nav li:nth-child(4):hover{
     background: #ddd;
     opacity: 0.9;
-    border-left: 5px solid#706fd3; 
+    border-left: 5px solid#eb3b5a; 
 }
-nav li:nth-child(5):hover{
-    background: #ddd;
-    opacity: 0.9;
-    border-left: 5px solid #40407a; 
-}
-nav li:nth-child(6):hover{
-    background: #ddd;
-    opacity: 0.9;
-    border-left: 5px solid#227093; 
-}
+
  .li-icon-about{
     padding-right: 10px;
-    color: #4481eb; 
+    color:#3867d6; 
     
- }
- .li-link{
-    /* width: 80%; */
- }
- .li-icon-experience{
-    padding-right: 10px;
-    color: #33d9b2;
-    width: 20px; 
  }
  .li-icon-project{
     padding-right: 10px;
-    color: #2c2c54; 
+    color: #8854d0; 
     width: 20px;
  }
  .li-icon-skill{
     padding-right: 10px;
-    color: #706fd3;
+    color: #2d98da;
     width: 20px;
  }
- .li-icon-education{
-    padding-right: 10px;
-    color: #40407a; 
-    width: 20px;
- }
+ 
  .li-icon-contact{
     padding-right: 10px;
-    color: #227093; 
+    color: #eb3b5a; 
     width: 15%;
  }
 
@@ -311,37 +286,45 @@ nav li:nth-child(6):hover{
     .nav-header i{
         display: block;
         position: absolute;
+        font-size: 20px;
+        left: 15px;
         top: 25px;
     } 
 }
 @media only screen and (max-width: 800px) {
     nav{
-         display: block;
-         width: 100%;
-         float: none;
-         position: inherit;
-         padding: 5px;
-    }
-    .body-section{
-        display: block;
+        display:  block;
         width: 100%;
-   }
-   .nav-header{
+        float: none;
+        position: inherit;
         padding: 5px;
    }
-    .nav-header h3, .nav-header p{
-        text-align: center;
-        
+   .body-section{
+       display: block;
+       width: 100%;
+  }
+  .nav-header{
+       padding: 5px;
+  }
+   .nav-header h3, .nav-header p{
+       text-align: center;
+  }
+  .nav-header h3{
+       font-size: 28px;
    }
-   .nav-header h3{
-        font-size: 28px;
-    }
-    .nav-header p{
-        font-size: 18px;
-    }
-    nav ul{
-        display: none;
-    }
+   .nav-header p{
+       font-size: 18px;
+   }
+   .menu{
+       display: none;
+   }
+   .nav-header i{
+       display: block;
+       position: absolute;
+       font-size: 20px;
+       left: 15px;
+       top: 25px;
+   } 
 }
 
 
@@ -421,7 +404,7 @@ blockquote{
 .card-name h2{
     text-align: center;
     margin-top: 20%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 5px;
     font-weight: 400;
     color: #000;
@@ -433,7 +416,7 @@ blockquote{
 }
 .card-description h4{
     color: #111;
-    font-family: 'Thasadith' sans-serif;
+    font-family: 'Open Sans' sans-serif;
  }
  .card-description p{
      color: #666;
@@ -448,6 +431,10 @@ blockquote{
     padding: 5px;
     align-items: center;
     text-align: center;
+}
+.pd{
+    padding-left: 10px;
+    padding-right: 10px; 
 }
 .card-link a{
    position: relative;
@@ -520,7 +507,7 @@ blockquote{
   .bootstrap { border-radius: 5px; height: 100%; padding: 5px; width: 90%; background-color:#8854d0;}
   .materialize { border-radius: 5px; height: 100%; padding: 5px; width: 90%; background-color:#eb3b5a;}
 
-  .js {border-radius: 5px; height: 100%; width: 65%; background-color: #f44336;}
+  .js {border-radius: 5px; height: 100%; width: 65%; padding: 5px; background-color: #f44336;}
   .vue-js { border-radius: 5px; height: 100%; padding: 5px; width: 50%; background-color:#26de81;}
   .react { border-radius: 5px; height: 100%; padding: 5px; width: 30%; background-color:#2bcbba;}
 
@@ -624,7 +611,17 @@ center{
     
 }
 
-
-
+.contact-social-media{
+    text-align: center;
+    padding: 10px;
+}
+.contact-social-media a{
+    padding: 0 10px 0 10px;
+    font-size: 19px;
+    color: #3867d6;
+}
+.contact-social-media a:hover{
+    color: #a5b1c2;
+}
 /* Image credit */
 /* Photo by Patrick Ryan on Unsplash */
