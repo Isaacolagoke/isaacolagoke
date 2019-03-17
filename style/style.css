@@ -380,7 +380,7 @@ blockquote{
     font-family: 'Open Sans' sans-serif;
     letter-spacing: 2px;
  }
-.intro-text2 a{
+.intro-text2 p a{
    text-decoration: none;
    color: #111;
 }
