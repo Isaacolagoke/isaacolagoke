@@ -370,8 +370,20 @@ blockquote{
     font-family: 'Open Sans' sans-serif;
 }
 
-
-
+.intro-text2{
+    margin: 20px 0px;
+}
+.intro-text2 p{
+    margin: 5px 0;
+    font-size: 17px;
+    color: #111;
+    font-family: 'Open Sans' sans-serif;
+    letter-spacing: 2px;
+ }
+.intro-text2 a{
+   text-decoration: none;
+   color: #111;
+}
 /* Projects */
 .card-div{
     width: 70%;
