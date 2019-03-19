@@ -635,5 +635,34 @@ center{
 .contact-social-media a:hover{
     color: #a5b1c2;
 }
+
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 17px;
+    right: 30px;
+    z-index: 99;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: #3867d6;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    color: #555;
+  }
+
+  @media only screen and (min-width: 800px) {
+    #myBtn {
+        font-size: 25px;
+      }
+      
+ }
 /* Image credit */
 /* Photo by Patrick Ryan on Unsplash */
