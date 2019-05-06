@@ -609,17 +609,17 @@ blockquote{
 
   
   .html { border-radius: 5px; height: 100%; padding: 5px; width: 90%; background-color: #4CAF50;}
-  .css { border-radius: 5px; height: 100%; padding: 5px; width: 60%; background-color: #2196F3;}
-  .sass { border-radius: 5px; height: 100%; padding: 5px; width: 30%; background-color: #a55eea;}
+  .css { border-radius: 5px; height: 100%; padding: 5px; width: 80%; background-color: #2196F3;}
+  .sass { border-radius: 5px; height: 100%; padding: 5px; width: 70%; background-color: #a55eea;}
   .bootstrap { border-radius: 5px; height: 100%; padding: 5px; width: 90%; background-color:#8854d0;}
   .materialize { border-radius: 5px; height: 100%; padding: 5px; width: 90%; background-color:#eb3b5a;}
 
   .js {border-radius: 5px; height: 100%; width: 65%; padding: 5px; background-color: #f44336;}
   .vue-js { border-radius: 5px; height: 100%; padding: 5px; width: 50%; background-color:#26de81;}
-  .react { border-radius: 5px; height: 100%; padding: 5px; width: 30%; background-color:#2bcbba;}
+  .react { border-radius: 5px; height: 100%; padding: 5px; width: 40%; background-color:#2bcbba;}
 
   .firebase { border-radius: 5px; height: 100%; padding: 5px; width: 40%; background-color:#4b6584;}
-  .psql { border-radius: 5px; height: 100%; padding: 5px; width: 10%; background-color:#4b7bec;}
+  .psql { border-radius: 5px; height: 100%; padding: 5px; width: 20%; background-color:#4b7bec;}
   .wordpress { border-radius: 5px; height: 100%; padding: 5px; width: 70%; background-color:#778ca3;}
   .github { border-radius: 5px; height: 100%; padding: 5px; width: 70%; background-color:#000;}
   .photoshop { border-radius: 5px; height: 100%; padding: 5px; width: 15%; background-color:#4b7bec;}
